@@ -5,5 +5,32 @@
     .row{
         flex-direction: column;
     }
+
+    .container{
+        width: 500px;
+    }
+
+    .lessons .col{
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .steps .col{
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .why-us .col{
+        font-size: 20px;
+        width: 80%;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .card{
+        margin-top: 30px;
+    }
 }
 
