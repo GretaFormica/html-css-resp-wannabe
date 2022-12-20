@@ -1,13 +1,13 @@
 /* MOBILE */
 
-@media screen and (max-width:478px){
+@media screen and (max-width:480px){
     
     .row{
         flex-direction: column;
     }
 
     .container{
-        width: 500px;
+        width: 400px;
     }
 
     .lessons .col{
@@ -31,6 +31,15 @@
 
     .card{
         margin-top: 30px;
+    }
+}
+
+/* TABLET */
+
+@media screen and (max-width:768px) and (min-width:481px){
+
+    .container{
+        width: 700px;
     }
 }
 
